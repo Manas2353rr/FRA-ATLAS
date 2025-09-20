@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "madhya-pradesh",
+        "district": "dindori",
+        "village": "Samnapur",
+        "community": "Baiga-Gond Joint Forest Management",
+        "area_hectares": 520.5,
+        "status": "approved",
+        "approval_date": "2022-02-10"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[81.1, 22.8], [81.1, 23.0], [81.3, 23.0], [81.3, 22.8], [81.1, 22.8]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "odisha",
+        "district": "kandhamal",
+        "village": "Phulbani",
+        "community": "Kutia Kondh Forest Protection Committee",
+        "area_hectares": 785.2,
+        "status": "approved",
+        "approval_date": "2021-07-18"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[84.0, 20.2], [84.0, 20.4], [84.2, 20.4], [84.2, 20.2], [84.0, 20.2]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "tripura",
+        "district": "dhalai",
+        "village": "Gandacherra",
+        "community": "Tripura Tribal Forest Conservancy",
+        "area_hectares": 320.8,
+        "status": "approved",
+        "approval_date": "2022-11-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[91.9, 23.5], [91.9, 23.7], [92.1, 23.7], [92.1, 23.5], [91.9, 23.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "telangana",
+        "district": "bhadradri-kothagudem",
+        "village": "Bhadrachalam",
+        "community": "Koya Tribal Forest Management",
+        "area_hectares": 650.3,
+        "status": "approved",
+        "approval_date": "2022-04-30"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[80.6, 17.8], [80.6, 18.0], [80.8, 18.0], [80.8, 17.8], [80.6, 17.8]]]
+      }
+    }
+  ]
+}

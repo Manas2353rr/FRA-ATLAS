@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRA Atlas & WebGIS Decision Support System</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.svg" alt="FRA Atlas Logo" class="logo">
+                    <span>FRA Atlas</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#atlas">FRA Atlas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#dss">Decision Support</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About FRA</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-primary login-btn" href="#login">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="slide-in-up">AI-powered FRA Atlas & WebGIS Decision Support System</h1>
+                    <p class="lead slide-in-up" style="animation-delay: 0.2s;">Empowering forest-dwelling communities through integrated monitoring and data-driven decision making for Forest Rights Act implementation.</p>
+                    <div class="hero-buttons slide-in-up" style="animation-delay: 0.4s;">
+                        <a href="#atlas" class="btn btn-primary btn-lg">Explore FRA Atlas</a>
+                        <a href="#dss" class="btn btn-outline-light btn-lg">Access Decision Support</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image fade-in" style="animation-delay: 0.6s;">
+                        <img src="images/hero-image.svg" alt="FRA Atlas Visualization" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured States Section -->
+    <section class="featured-states">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured States</h2>
+                <p class="section-description">Explore FRA implementation across key Indian states</p>
+            </div>
+            <div class="row">
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="state-card" data-state="madhya-pradesh">
+                        <div class="state-icon"><i class="fas fa-tree"></i></div>
+                        <div class="state-badge">Central India</div>
+                        <h3>Madhya Pradesh</h3>
+                        <p>Central Indian state with significant tribal population and forest coverage.</p>
+                        <div class="state-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">245K+</span>
+                                <span class="stat-label">IFR Claims</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">12K+</span>
+                                <span class="stat-label">CR Claims</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-sm btn-outline-primary">View Data</a>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="state-card" data-state="tripura">
+                        <div class="state-icon"><i class="fas fa-mountain"></i></div>
+                        <div class="state-badge">Northeast</div>
+                        <h3>Tripura</h3>
+                        <p>Northeastern state with rich biodiversity and indigenous communities.</p>
+                        <div class="state-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">123K+</span>
+                                <span class="stat-label">IFR Claims</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">5K+</span>
+                                <span class="stat-label">CR Claims</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-sm btn-outline-primary">View Data</a>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="state-card" data-state="odisha">
+                        <div class="state-icon"><i class="fas fa-leaf"></i></div>
+                        <div class="state-badge">Eastern</div>
+                        <h3>Odisha</h3>
+                        <p>Eastern state with diverse tribal groups and extensive forest areas.</p>
+                        <div class="state-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">198K+</span>
+                                <span class="stat-label">IFR Claims</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">9K+</span>
+                                <span class="stat-label">CR Claims</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-sm btn-outline-primary">View Data</a>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="state-card" data-state="telangana">
+                        <div class="state-icon"><i class="fas fa-seedling"></i></div>
+                        <div class="state-badge">Southern</div>
+                        <h3>Telangana</h3>
+                        <p>Southern state with significant tribal population and forest rights issues.</p>
+                        <div class="state-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">156K+</span>
+                                <span class="stat-label">IFR Claims</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">7K+</span>
+                                <span class="stat-label">CR Claims</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-sm btn-outline-primary">View Data</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FRA Atlas Section -->
+    <section id="atlas" class="atlas-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">FRA Atlas</h2>
+                <p class="section-description">Interactive WebGIS platform visualizing Forest Rights Act implementation across India</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="atlas-controls">
+                        <div class="control-panel">
+                            <h3>Map Layers</h3>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="layer-ifr" checked>
+                                <label class="form-check-label" for="layer-ifr">Individual Forest Rights</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="layer-cr" checked>
+                                <label class="form-check-label" for="layer-cr">Community Rights</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="layer-cfr">
+                                <label class="form-check-label" for="layer-cfr">Community Forest Resource Rights</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="layer-assets">
+                                <label class="form-check-label" for="layer-assets">Community Assets</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="layer-water">
+                                <label class="form-check-label" for="layer-water">Water Bodies</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="layer-agriculture">
+                                <label class="form-check-label" for="layer-agriculture">Agricultural Land</label>
+                            </div>
+                        </div>
+                        
+                        <div class="control-panel mt-4">
+                            <h3>Filter By</h3>
+                            <div class="mb-3">
+                                <label for="state-select" class="form-label">State</label>
+                                <select class="form-select" id="state-select">
+                                    <option value="all">All States</option>
+                                    <option value="madhya-pradesh">Madhya Pradesh</option>
+                                    <option value="tripura">Tripura</option>
+                                    <option value="odisha">Odisha</option>
+                                    <option value="telangana">Telangana</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="district-select" class="form-label">District</label>
+                                <select class="form-select" id="district-select">
+                                    <option value="all">All Districts</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="tribal-group" class="form-label">Tribal Group</label>
+                                <select class="form-select" id="tribal-group">
+                                    <option value="all">All Groups</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div id="fra-map" class="map-container">
+                        <!-- Map will be loaded here via JavaScript -->
+                    </div>
+                    <div class="map-legend">
+                        <div class="legend-item">
+                            <span class="legend-color" style="background-color: #ff5733;"></span>
+                            <span class="legend-label">Individual Forest Rights</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color" style="background-color: #33ff57;"></span>
+                            <span class="legend-label">Community Rights</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color" style="background-color: #3357ff;"></span>
+                            <span class="legend-label">Community Forest Resource Rights</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Decision Support System Section -->
+    <section id="dss" class="dss-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Decision Support System</h2>
+                <p class="section-description">AI-enhanced tools for policy formulation and scheme implementation</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                    <div class="dss-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3>Scheme Layering</h3>
+                        <p>Identify optimal combinations of Central Sector Schemes for FRA patta holders based on geographical and socio-economic factors.</p>
+                        <ul class="scheme-list">
+                            <li><span class="scheme-badge">PM-KISAN</span></li>
+                            <li><span class="scheme-badge">Jal Jeevan Mission</span></li>
+                            <li><span class="scheme-badge">MGNREGA</span></li>
+                            <li><span class="scheme-badge">DAJGUA</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+                    <div class="dss-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Progress Tracking</h3>
+                        <p>Monitor FRA implementation progress at village, block, district, and state levels with real-time analytics.</p>
+                        <div class="progress-stats">
+                            <div class="stat-item">
+                                <span class="stat-value">12,458</span>
+                                <span class="stat-label">IFR Claims Processed</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">3,245</span>
+                                <span class="stat-label">CR Claims Processed</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">1,876</span>
+                                <span class="stat-label">CFR Claims Processed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-12" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="dss-demo-card">
+                        <h3>Try the Decision Support System</h3>
+                        <p>Select a region and see recommended schemes based on AI analysis of geographical and socio-economic data.</p>
+                        <div class="dss-demo-form">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="mb-3">
+                                        <label for="dss-state" class="form-label">State</label>
+                                        <select class="form-select" id="dss-state">
+                                            <option value="madhya-pradesh">Madhya Pradesh</option>
+                                            <option value="tripura">Tripura</option>
+                                            <option value="odisha">Odisha</option>
+                                            <option value="telangana">Telangana</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="mb-3">
+                                        <label for="dss-district" class="form-label">District</label>
+                                        <select class="form-select" id="dss-district">
+                                            <option value="">Select District</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="mb-3">
+                                        <label for="dss-village" class="form-label">Village</label>
+                                        <select class="form-select" id="dss-village">
+                                            <option value="">Select Village</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary pulse" id="generate-recommendations">Generate Recommendations</button>
+                        </div>
+                        <div class="recommendations-container mt-4" style="display: none;">
+                            <h4>AI-Generated Recommendations</h4>
+                            <div class="recommendations-content">
+                                <!-- Recommendations will be loaded here via JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Features Section -->
+    <section class="ai-features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">AI-Powered Features</h2>
+                <p class="section-description">Advanced technologies driving the FRA Atlas and Decision Support System</p>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="ai-feature-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="feature-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h3>Document Digitization</h3>
+                        <p>AI-powered extraction and standardization of text from scanned FRA documents with Named Entity Recognition.</p>
+                        <div class="feature-footer">
+                            <span class="badge bg-success">OCR</span>
+                            <span class="badge bg-primary">NLP</span>
+                            <span class="badge bg-info">NER</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ai-feature-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="feature-icon">
+                            <i class="fas fa-satellite"></i>
+                        </div>
+                        <h3>Satellite Imagery Analysis</h3>
+                        <p>Computer Vision on high-resolution satellite imagery to detect agricultural land, forest cover, water bodies, and homesteads.</p>
+                        <div class="feature-footer">
+                            <span class="badge bg-success">Computer Vision</span>
+                            <span class="badge bg-primary">CNN</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ai-feature-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="feature-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h3>WebGIS Integration</h3>
+                        <p>Interactive layers for IFR/CR, village boundaries, land-use, and assets with filtering capabilities.</p>
+                        <div class="feature-footer">
+                            <span class="badge bg-success">GIS</span>
+                            <span class="badge bg-primary">Spatial Analysis</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ai-feature-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="feature-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Decision Support Engine</h3>
+                        <p>Rule-based + AI-enhanced DSS engine that cross-links FRA holders with eligibility for CSS schemes.</p>
+                        <div class="feature-footer">
+                            <span class="badge bg-success">ML</span>
+                            <span class="badge bg-primary">Decision Trees</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About FRA Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Forest Rights Act</h2>
+                <p class="section-description">Understanding the Forest Rights Act, 2006 and its implementation</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                    <div class="about-content">
+                        <h3>What is the Forest Rights Act?</h3>
+                        <p>The Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006, commonly known as the Forest Rights Act (FRA), is a key piece of legislation in India that recognizes the rights of forest-dwelling communities over land and forest resources.</p>
+                        
+                        <h3>Key Provisions</h3>
+                        <ul>
+                            <li><strong>Individual Forest Rights (IFR):</strong> Rights to cultivate and occupy forest land (up to 4 hectares) that the claimant has been cultivating prior to December 13, 2005.</li>
+                            <li><strong>Community Rights (CR):</strong> Rights to access, use, and collect minor forest produce, grazing areas, water bodies, and traditional knowledge.</li>
+                            <li><strong>Community Forest Resource Rights (CFR):</strong> Rights to protect, regenerate, conserve, and manage community forest resources within traditional boundaries.</li>
+                        </ul>
+                        
+                        <h3>Implementation Challenges</h3>
+                        <p>Despite its transformative potential, FRA implementation faces challenges including scattered non-digitized records, lack of centralized monitoring, and limited integration with development schemes.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+                    <div class="about-image">
+                        <img src="images/backgrounds/forest-about.svg" alt="Forest Rights Act Implementation" class="img-fluid">
+                    </div>
+                    <div class="fra-stats mt-4">
+                        <div class="row">
+                            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                                <div class="stat-box">
+                                    <h4>4.2M+</h4>
+                                    <p>Claims Filed</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="stat-box">
+                                    <h4>2.1M+</h4>
+                                    <p>Titles Distributed</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="500">
+                                <div class="stat-box">
+                                    <h4>5.7M+</h4>
+                                    <p>Hectares Recognized</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-description">Get in touch with the FRA Atlas team</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                    <div class="contact-info">
+                        <div class="info-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>Address</h3>
+                                <p>Ministry of Tribal Affairs<br>Shastri Bhawan, Dr. Rajendra Prasad Road<br>New Delhi - 110001, India</p>
+                            </div>
+                        </div>
+                        <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>Email</h3>
+                                <p>fra-atlas@tribal.gov.in</p>
+                            </div>
+                        </div>
+                        <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="info-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>Phone</h3>
+                                <p>+91-11-23383853</p>
+                            </div>
+                        </div>
+                        <div class="social-contact" data-aos="fade-up" data-aos-delay="500">
+                            <h3>Connect With Us</h3>
+                            <div class="social-icons">
+                                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+                    <div class="contact-form">
+                        <h3 class="form-title">Send Us a Message</h3>
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" class="form-control" id="subject" placeholder="Message Subject" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-paper-plane me-2"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-about">
+                        <h3>FRA Atlas</h3>
+                        <p>An AI-powered WebGIS-based Decision Support System for integrated monitoring of Forest Rights Act implementation.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-links">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#atlas">FRA Atlas</a></li>
+                            <li><a href="#dss">Decision Support</a></li>
+                            <li><a href="#about">About FRA</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-links">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">FRA Documentation</a></li>
+                            <li><a href="#">User Guide</a></li>
+                            <li><a href="#">API Documentation</a></li>
+                            <li><a href="#">Research Papers</a></li>
+                            <li><a href="#">Case Studies</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-newsletter">
+                        <h3>Newsletter</h3>
+                        <p>Subscribe to our newsletter for updates on FRA implementation and new features.</p>
+                        <form>
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Your Email">
+                                <button class="btn btn-primary" type="submit">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; 2025 FRA Atlas. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-bottom-links">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                            <a href="#">Sitemap</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Login to FRA Atlas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="loginEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="loginPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="loginPassword" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Login</button>
+                    </form>
+                    <div class="text-center mt-3">
+                        <a href="#" class="text-decoration-none">Forgot password?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // Initialize AOS animation library
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/dss.js"></script>
+</body>
+</html>

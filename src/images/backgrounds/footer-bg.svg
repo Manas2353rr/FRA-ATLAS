@@ -1,0 +1,88 @@
+<svg width="1920" height="600" viewBox="0 0 1920 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background -->
+  <rect width="1920" height="600" fill="#263238"/>
+  
+  <!-- Forest silhouette -->
+  <g opacity="0.15">
+    <!-- Row 1 of trees (distant) -->
+    <path d="M50 400L30 450H70L50 400Z" fill="#FFFFFF"/>
+    <path d="M150 380L130 430H170L150 380Z" fill="#FFFFFF"/>
+    <path d="M250 400L230 450H270L250 400Z" fill="#FFFFFF"/>
+    <path d="M350 390L330 440H370L350 390Z" fill="#FFFFFF"/>
+    <path d="M450 400L430 450H470L450 400Z" fill="#FFFFFF"/>
+    <path d="M550 380L530 430H570L550 380Z" fill="#FFFFFF"/>
+    <path d="M650 400L630 450H670L650 400Z" fill="#FFFFFF"/>
+    <path d="M750 390L730 440H770L750 390Z" fill="#FFFFFF"/>
+    <path d="M850 400L830 450H870L850 400Z" fill="#FFFFFF"/>
+    <path d="M950 380L930 430H970L950 380Z" fill="#FFFFFF"/>
+    <path d="M1050 400L1030 450H1070L1050 400Z" fill="#FFFFFF"/>
+    <path d="M1150 390L1130 440H1170L1150 390Z" fill="#FFFFFF"/>
+    <path d="M1250 400L1230 450H1270L1250 400Z" fill="#FFFFFF"/>
+    <path d="M1350 380L1330 430H1370L1350 380Z" fill="#FFFFFF"/>
+    <path d="M1450 400L1430 450H1470L1450 400Z" fill="#FFFFFF"/>
+    <path d="M1550 390L1530 440H1570L1550 390Z" fill="#FFFFFF"/>
+    <path d="M1650 400L1630 450H1670L1650 400Z" fill="#FFFFFF"/>
+    <path d="M1750 380L1730 430H1770L1750 380Z" fill="#FFFFFF"/>
+    <path d="M1850 400L1830 450H1870L1850 400Z" fill="#FFFFFF"/>
+    
+    <!-- Row 2 of trees (middle distance) -->
+    <path d="M100 450L80 520H120L100 450Z" fill="#FFFFFF"/>
+    <path d="M200 430L180 500H220L200 430Z" fill="#FFFFFF"/>
+    <path d="M300 450L280 520H320L300 450Z" fill="#FFFFFF"/>
+    <path d="M400 440L380 510H420L400 440Z" fill="#FFFFFF"/>
+    <path d="M500 450L480 520H520L500 450Z" fill="#FFFFFF"/>
+    <path d="M600 430L580 500H620L600 430Z" fill="#FFFFFF"/>
+    <path d="M700 450L680 520H720L700 450Z" fill="#FFFFFF"/>
+    <path d="M800 440L780 510H820L800 440Z" fill="#FFFFFF"/>
+    <path d="M900 450L880 520H920L900 450Z" fill="#FFFFFF"/>
+    <path d="M1000 430L980 500H1020L1000 430Z" fill="#FFFFFF"/>
+    <path d="M1100 450L1080 520H1120L1100 450Z" fill="#FFFFFF"/>
+    <path d="M1200 440L1180 510H1220L1200 440Z" fill="#FFFFFF"/>
+    <path d="M1300 450L1280 520H1320L1300 450Z" fill="#FFFFFF"/>
+    <path d="M1400 430L1380 500H1420L1400 430Z" fill="#FFFFFF"/>
+    <path d="M1500 450L1480 520H1520L1500 450Z" fill="#FFFFFF"/>
+    <path d="M1600 440L1580 510H1620L1600 440Z" fill="#FFFFFF"/>
+    <path d="M1700 450L1680 520H1720L1700 450Z" fill="#FFFFFF"/>
+    <path d="M1800 430L1780 500H1820L1800 430Z" fill="#FFFFFF"/>
+    <path d="M1900 450L1880 520H1920L1900 450Z" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Foreground trees (more detailed) -->
+  <g opacity="0.1">
+    <!-- Tree 1 -->
+    <path d="M200 500L150 580H250L200 500Z" fill="#FFFFFF"/>
+    <rect x="195" y="580" width="10" height="20" fill="#FFFFFF"/>
+    
+    <!-- Tree 2 -->
+    <path d="M500 480L450 560H550L500 480Z" fill="#FFFFFF"/>
+    <rect x="495" y="560" width="10" height="20" fill="#FFFFFF"/>
+    
+    <!-- Tree 3 -->
+    <path d="M800 500L750 580H850L800 500Z" fill="#FFFFFF"/>
+    <rect x="795" y="580" width="10" height="20" fill="#FFFFFF"/>
+    
+    <!-- Tree 4 -->
+    <path d="M1100 480L1050 560H1150L1100 480Z" fill="#FFFFFF"/>
+    <rect x="1095" y="560" width="10" height="20" fill="#FFFFFF"/>
+    
+    <!-- Tree 5 -->
+    <path d="M1400 500L1350 580H1450L1400 500Z" fill="#FFFFFF"/>
+    <rect x="1395" y="580" width="10" height="20" fill="#FFFFFF"/>
+    
+    <!-- Tree 6 -->
+    <path d="M1700 480L1650 560H1750L1700 480Z" fill="#FFFFFF"/>
+    <rect x="1695" y="560" width="10" height="20" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Pattern overlay -->
+  <g opacity="0.05">
+    <rect width="1920" height="600" fill="url(#pattern)"/>
+  </g>
+  
+  <!-- Gradients and patterns -->
+  <defs>
+    <pattern id="pattern" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="scale(2)">
+      <path d="M20 0L40 20L20 40L0 20L20 0Z" fill="#FFFFFF"/>
+    </pattern>
+  </defs>
+</svg>

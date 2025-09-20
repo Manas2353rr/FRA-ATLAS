@@ -1,0 +1,136 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <rect width="800" height="500" fill="#E8F5E9"/>
+  
+  <!-- Distant mountains -->
+  <path d="M0 150L100 120L200 160L300 130L400 170L500 140L600 180L700 150L800 170V500H0V150Z" fill="#81C784" opacity="0.5"/>
+  
+  <!-- Middle mountains -->
+  <path d="M0 200L100 180L200 220L300 190L400 230L500 200L600 240L700 210L800 230V500H0V200Z" fill="#4CAF50" opacity="0.7"/>
+  
+  <!-- Foreground mountains -->
+  <path d="M0 250L100 230L200 270L300 240L400 280L500 250L600 290L700 260L800 280V500H0V250Z" fill="#2E7D32"/>
+  
+  <!-- Forest layer 1 (distant) -->
+  <g opacity="0.8">
+    <!-- Row of trees -->
+    <path d="M50 250L30 300H70L50 250Z" fill="#1B5E20"/>
+    <path d="M100 240L80 290H120L100 240Z" fill="#1B5E20"/>
+    <path d="M150 250L130 300H170L150 250Z" fill="#1B5E20"/>
+    <path d="M200 240L180 290H220L200 240Z" fill="#1B5E20"/>
+    <path d="M250 250L230 300H270L250 250Z" fill="#1B5E20"/>
+    <path d="M300 240L280 290H320L300 240Z" fill="#1B5E20"/>
+    <path d="M350 250L330 300H370L350 250Z" fill="#1B5E20"/>
+    <path d="M400 240L380 290H420L400 240Z" fill="#1B5E20"/>
+    <path d="M450 250L430 300H470L450 250Z" fill="#1B5E20"/>
+    <path d="M500 240L480 290H520L500 240Z" fill="#1B5E20"/>
+    <path d="M550 250L530 300H570L550 250Z" fill="#1B5E20"/>
+    <path d="M600 240L580 290H620L600 240Z" fill="#1B5E20"/>
+    <path d="M650 250L630 300H670L650 250Z" fill="#1B5E20"/>
+    <path d="M700 240L680 290H720L700 240Z" fill="#1B5E20"/>
+    <path d="M750 250L730 300H770L750 250Z" fill="#1B5E20"/>
+  </g>
+  
+  <!-- Forest layer 2 (middle distance) -->
+  <g opacity="0.9">
+    <!-- Row of trees -->
+    <path d="M25 300L5 360H45L25 300Z" fill="#0A3D12"/>
+    <path d="M75 290L55 350H95L75 290Z" fill="#0A3D12"/>
+    <path d="M125 300L105 360H145L125 300Z" fill="#0A3D12"/>
+    <path d="M175 290L155 350H195L175 290Z" fill="#0A3D12"/>
+    <path d="M225 300L205 360H245L225 300Z" fill="#0A3D12"/>
+    <path d="M275 290L255 350H295L275 290Z" fill="#0A3D12"/>
+    <path d="M325 300L305 360H345L325 300Z" fill="#0A3D12"/>
+    <path d="M375 290L355 350H395L375 290Z" fill="#0A3D12"/>
+    <path d="M425 300L405 360H445L425 300Z" fill="#0A3D12"/>
+    <path d="M475 290L455 350H495L475 290Z" fill="#0A3D12"/>
+    <path d="M525 300L505 360H545L525 300Z" fill="#0A3D12"/>
+    <path d="M575 290L555 350H595L575 290Z" fill="#0A3D12"/>
+    <path d="M625 300L605 360H645L625 300Z" fill="#0A3D12"/>
+    <path d="M675 290L655 350H695L675 290Z" fill="#0A3D12"/>
+    <path d="M725 300L705 360H745L725 300Z" fill="#0A3D12"/>
+    <path d="M775 290L755 350H795L775 290Z" fill="#0A3D12"/>
+  </g>
+  
+  <!-- Forest layer 3 (foreground) -->
+  <g>
+    <!-- Detailed trees -->
+    <!-- Tree 1 -->
+    <path d="M100 320L70 400H130L100 320Z" fill="#094D0F"/>
+    <path d="M100 350L75 420H125L100 350Z" fill="#094D0F"/>
+    <rect x="95" y="420" width="10" height="80" fill="#5D4037"/>
+    
+    <!-- Tree 2 -->
+    <path d="M200 310L170 390H230L200 310Z" fill="#094D0F"/>
+    <path d="M200 340L175 410H225L200 340Z" fill="#094D0F"/>
+    <rect x="195" y="410" width="10" height="90" fill="#5D4037"/>
+    
+    <!-- Tree 3 -->
+    <path d="M300 330L270 410H330L300 330Z" fill="#094D0F"/>
+    <path d="M300 360L275 430H325L300 360Z" fill="#094D0F"/>
+    <rect x="295" y="430" width="10" height="70" fill="#5D4037"/>
+    
+    <!-- Tree 4 -->
+    <path d="M400 320L370 400H430L400 320Z" fill="#094D0F"/>
+    <path d="M400 350L375 420H425L400 350Z" fill="#094D0F"/>
+    <rect x="395" y="420" width="10" height="80" fill="#5D4037"/>
+    
+    <!-- Tree 5 -->
+    <path d="M500 310L470 390H530L500 310Z" fill="#094D0F"/>
+    <path d="M500 340L475 410H525L500 340Z" fill="#094D0F"/>
+    <rect x="495" y="410" width="10" height="90" fill="#5D4037"/>
+    
+    <!-- Tree 6 -->
+    <path d="M600 330L570 410H630L600 330Z" fill="#094D0F"/>
+    <path d="M600 360L575 430H625L600 360Z" fill="#094D0F"/>
+    <rect x="595" y="430" width="10" height="70" fill="#5D4037"/>
+    
+    <!-- Tree 7 -->
+    <path d="M700 320L670 400H730L700 320Z" fill="#094D0F"/>
+    <path d="M700 350L675 420H725L700 350Z" fill="#094D0F"/>
+    <rect x="695" y="420" width="10" height="80" fill="#5D4037"/>
+  </g>
+  
+  <!-- Sunlight rays -->
+  <g opacity="0.2">
+    <path d="M400 0L380 500H420L400 0Z" fill="white"/>
+    <path d="M350 0L330 500H370L350 0Z" fill="white"/>
+    <path d="M450 0L430 500H470L450 0Z" fill="white"/>
+    <path d="M300 0L280 500H320L300 0Z" fill="white"/>
+    <path d="M500 0L480 500H520L500 0Z" fill="white"/>
+  </g>
+  
+  <!-- Foreground grass -->
+  <rect y="450" width="800" height="50" fill="#1B5E20"/>
+  
+  <!-- Tribal people silhouettes -->
+  <g>
+    <!-- Person 1 -->
+    <circle cx="150" cy="470" r="10" fill="#000000" opacity="0.7"/>
+    <rect x="147" y="480" width="6" height="20" fill="#000000" opacity="0.7"/>
+    <line x1="147" y1="485" x2="137" y2="495" stroke="#000000" stroke-width="3" opacity="0.7"/>
+    <line x1="153" y1="485" x2="163" y2="495" stroke="#000000" stroke-width="3" opacity="0.7"/>
+    
+    <!-- Person 2 -->
+    <circle cx="180" cy="470" r="8" fill="#000000" opacity="0.7"/>
+    <rect x="178" y="478" width="4" height="15" fill="#000000" opacity="0.7"/>
+    <line x1="178" y1="483" x2="170" y2="490" stroke="#000000" stroke-width="2" opacity="0.7"/>
+    <line x1="182" y1="483" x2="190" y2="490" stroke="#000000" stroke-width="2" opacity="0.7"/>
+    
+    <!-- Person 3 -->
+    <circle cx="210" cy="470" r="9" fill="#000000" opacity="0.7"/>
+    <rect x="208" y="479" width="4" height="18" fill="#000000" opacity="0.7"/>
+    <line x1="208" y1="485" x2="200" y2="493" stroke="#000000" stroke-width="2" opacity="0.7"/>
+    <line x1="212" y1="485" x2="220" y2="493" stroke="#000000" stroke-width="2" opacity="0.7"/>
+    
+    <!-- Person 4 -->
+    <circle cx="240" cy="470" r="7" fill="#000000" opacity="0.7"/>
+    <rect x="238" y="477" width="4" height="14" fill="#000000" opacity="0.7"/>
+    <line x1="238" y1="482" x2="232" y2="488" stroke="#000000" stroke-width="2" opacity="0.7"/>
+    <line x1="242" y1="482" x2="248" y2="488" stroke="#000000" stroke-width="2" opacity="0.7"/>
+  </g>
+  
+  <!-- Sun -->
+  <circle cx="400" cy="100" r="40" fill="#FFC107" opacity="0.8"/>
+  <circle cx="400" cy="100" r="30" fill="#FFEB3B" opacity="0.8"/>
+</svg>

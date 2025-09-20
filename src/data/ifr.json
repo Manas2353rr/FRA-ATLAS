@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "madhya-pradesh",
+        "district": "balaghat",
+        "village": "Mohgaon",
+        "holder_name": "Ramesh Kumar",
+        "area_hectares": 2.5,
+        "status": "approved",
+        "approval_date": "2022-05-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[80.1, 21.6], [80.1, 21.7], [80.2, 21.7], [80.2, 21.6], [80.1, 21.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "odisha",
+        "district": "mayurbhanj",
+        "village": "Jamda",
+        "holder_name": "Sunita Murmu",
+        "area_hectares": 1.8,
+        "status": "approved",
+        "approval_date": "2021-11-23"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[86.1, 21.6], [86.1, 21.7], [86.2, 21.7], [86.2, 21.6], [86.1, 21.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "tripura",
+        "district": "dhalai",
+        "village": "Ambassa",
+        "holder_name": "Manik Debbarma",
+        "area_hectares": 1.2,
+        "status": "approved",
+        "approval_date": "2023-02-10"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[91.8, 23.6], [91.8, 23.7], [91.9, 23.7], [91.9, 23.6], [91.8, 23.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "telangana",
+        "district": "adilabad",
+        "village": "Jainoor",
+        "holder_name": "Lakshmi Naitam",
+        "area_hectares": 2.1,
+        "status": "approved",
+        "approval_date": "2022-08-05"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.8, 19.1], [78.8, 19.2], [78.9, 19.2], [78.9, 19.1], [78.8, 19.1]]]
+      }
+    }
+  ]
+}

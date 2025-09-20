@@ -1,0 +1,73 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "madhya-pradesh",
+        "district": "mandla",
+        "village": "Bichhiya",
+        "community": "Baiga Tribal Community",
+        "area_hectares": 125.5,
+        "status": "approved",
+        "approval_date": "2022-03-18",
+        "rights_type": "grazing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[80.8, 22.6], [80.8, 22.8], [81.0, 22.8], [81.0, 22.6], [80.8, 22.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "odisha",
+        "district": "rayagada",
+        "village": "Muniguda",
+        "community": "Dongria Kondh Community",
+        "area_hectares": 210.3,
+        "status": "approved",
+        "approval_date": "2021-09-12",
+        "rights_type": "minor_forest_produce"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[83.4, 19.2], [83.4, 19.4], [83.6, 19.4], [83.6, 19.2], [83.4, 19.2]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "tripura",
+        "district": "north-tripura",
+        "village": "Dasda",
+        "community": "Reang Tribal Community",
+        "area_hectares": 95.8,
+        "status": "approved",
+        "approval_date": "2023-01-05",
+        "rights_type": "water_bodies"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[92.0, 24.1], [92.0, 24.2], [92.1, 24.2], [92.1, 24.1], [92.0, 24.1]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "telangana",
+        "district": "komaram-bheem",
+        "village": "Asifabad",
+        "community": "Gond Tribal Community",
+        "area_hectares": 178.2,
+        "status": "approved",
+        "approval_date": "2022-06-22",
+        "rights_type": "grazing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.2, 19.3], [79.2, 19.5], [79.4, 19.5], [79.4, 19.3], [79.2, 19.3]]]
+      }
+    }
+  ]
+}

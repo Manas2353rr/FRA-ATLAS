@@ -1,0 +1,57 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "madhya-pradesh",
+        "name": "Tawa Reservoir",
+        "type": "reservoir",
+        "area_hectares": 210.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.9, 22.5], [77.9, 22.6], [78.1, 22.6], [78.1, 22.5], [77.9, 22.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "odisha",
+        "name": "Hirakud Dam",
+        "type": "dam",
+        "area_hectares": 385.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[83.8, 21.5], [83.8, 21.6], [84.0, 21.6], [84.0, 21.5], [83.8, 21.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "tripura",
+        "name": "Gumti Reservoir",
+        "type": "reservoir",
+        "area_hectares": 120.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[91.6, 23.5], [91.6, 23.6], [91.7, 23.6], [91.7, 23.5], [91.6, 23.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "telangana",
+        "name": "Godavari River",
+        "type": "river",
+        "area_hectares": 450.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.5, 18.8], [79.5, 18.9], [79.7, 18.9], [79.7, 18.8], [79.5, 18.8]]]
+      }
+    }
+  ]
+}

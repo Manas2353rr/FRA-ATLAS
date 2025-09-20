@@ -1,0 +1,107 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient -->
+  <rect width="1920" height="1080" fill="url(#sky_gradient)"/>
+  
+  <!-- Mountain background -->
+  <path d="M0 400L240 300L480 450L720 350L960 500L1200 380L1440 450L1680 350L1920 420V1080H0V400Z" fill="#2E5C35"/>
+  
+  <!-- Mountain middle layer -->
+  <path d="M0 500L240 420L480 550L720 480L960 600L1200 500L1440 580L1680 480L1920 550V1080H0V500Z" fill="#1B4D2E"/>
+  
+  <!-- Mountain foreground -->
+  <path d="M0 600L240 550L480 680L720 600L960 720L1200 630L1440 700L1680 620L1920 680V1080H0V600Z" fill="#0F3823"/>
+  
+  <!-- Forest silhouette -->
+  <g opacity="0.8">
+    <!-- Row 1 of trees -->
+    <path d="M50 650L30 750H70L50 650Z" fill="#0A2A1A"/>
+    <path d="M150 630L130 730H170L150 630Z" fill="#0A2A1A"/>
+    <path d="M250 650L230 750H270L250 650Z" fill="#0A2A1A"/>
+    <path d="M350 640L330 740H370L350 640Z" fill="#0A2A1A"/>
+    <path d="M450 650L430 750H470L450 650Z" fill="#0A2A1A"/>
+    <path d="M550 630L530 730H570L550 630Z" fill="#0A2A1A"/>
+    <path d="M650 650L630 750H670L650 650Z" fill="#0A2A1A"/>
+    <path d="M750 640L730 740H770L750 640Z" fill="#0A2A1A"/>
+    <path d="M850 650L830 750H870L850 650Z" fill="#0A2A1A"/>
+    <path d="M950 630L930 730H970L950 630Z" fill="#0A2A1A"/>
+    <path d="M1050 650L1030 750H1070L1050 650Z" fill="#0A2A1A"/>
+    <path d="M1150 640L1130 740H1170L1150 640Z" fill="#0A2A1A"/>
+    <path d="M1250 650L1230 750H1270L1250 650Z" fill="#0A2A1A"/>
+    <path d="M1350 630L1330 730H1370L1350 630Z" fill="#0A2A1A"/>
+    <path d="M1450 650L1430 750H1470L1450 650Z" fill="#0A2A1A"/>
+    <path d="M1550 640L1530 740H1570L1550 640Z" fill="#0A2A1A"/>
+    <path d="M1650 650L1630 750H1670L1650 650Z" fill="#0A2A1A"/>
+    <path d="M1750 630L1730 730H1770L1750 630Z" fill="#0A2A1A"/>
+    <path d="M1850 650L1830 750H1870L1850 650Z" fill="#0A2A1A"/>
+    
+    <!-- Row 2 of trees (offset) -->
+    <path d="M100 700L80 800H120L100 700Z" fill="#0A2A1A"/>
+    <path d="M200 680L180 780H220L200 680Z" fill="#0A2A1A"/>
+    <path d="M300 700L280 800H320L300 700Z" fill="#0A2A1A"/>
+    <path d="M400 690L380 790H420L400 690Z" fill="#0A2A1A"/>
+    <path d="M500 700L480 800H520L500 700Z" fill="#0A2A1A"/>
+    <path d="M600 680L580 780H620L600 680Z" fill="#0A2A1A"/>
+    <path d="M700 700L680 800H720L700 700Z" fill="#0A2A1A"/>
+    <path d="M800 690L780 790H820L800 690Z" fill="#0A2A1A"/>
+    <path d="M900 700L880 800H920L900 700Z" fill="#0A2A1A"/>
+    <path d="M1000 680L980 780H1020L1000 680Z" fill="#0A2A1A"/>
+    <path d="M1100 700L1080 800H1120L1100 700Z" fill="#0A2A1A"/>
+    <path d="M1200 690L1180 790H1220L1200 690Z" fill="#0A2A1A"/>
+    <path d="M1300 700L1280 800H1320L1300 700Z" fill="#0A2A1A"/>
+    <path d="M1400 680L1380 780H1420L1400 680Z" fill="#0A2A1A"/>
+    <path d="M1500 700L1480 800H1520L1500 700Z" fill="#0A2A1A"/>
+    <path d="M1600 690L1580 790H1620L1600 690Z" fill="#0A2A1A"/>
+    <path d="M1700 700L1680 800H1720L1700 700Z" fill="#0A2A1A"/>
+    <path d="M1800 680L1780 780H1820L1800 680Z" fill="#0A2A1A"/>
+    <path d="M1900 700L1880 800H1920L1900 700Z" fill="#0A2A1A"/>
+  </g>
+  
+  <!-- Mist/fog effect -->
+  <rect y="750" width="1920" height="100" fill="url(#fog_gradient)"/>
+  
+  <!-- Foreground trees (more detailed) -->
+  <g>
+    <!-- Tree 1 -->
+    <path d="M200 800L150 950H250L200 800Z" fill="#0F3823"/>
+    <path d="M200 850L160 980H240L200 850Z" fill="#0F3823"/>
+    <rect x="195" y="980" width="10" height="100" fill="#5D4037"/>
+    
+    <!-- Tree 2 -->
+    <path d="M500 780L450 930H550L500 780Z" fill="#0F3823"/>
+    <path d="M500 830L460 960H540L500 830Z" fill="#0F3823"/>
+    <rect x="495" y="960" width="10" height="120" fill="#5D4037"/>
+    
+    <!-- Tree 3 -->
+    <path d="M800 800L750 950H850L800 800Z" fill="#0F3823"/>
+    <path d="M800 850L760 980H840L800 850Z" fill="#0F3823"/>
+    <rect x="795" y="980" width="10" height="100" fill="#5D4037"/>
+    
+    <!-- Tree 4 -->
+    <path d="M1100 780L1050 930H1150L1100 780Z" fill="#0F3823"/>
+    <path d="M1100 830L1060 960H1140L1100 830Z" fill="#0F3823"/>
+    <rect x="1095" y="960" width="10" height="120" fill="#5D4037"/>
+    
+    <!-- Tree 5 -->
+    <path d="M1400 800L1350 950H1450L1400 800Z" fill="#0F3823"/>
+    <path d="M1400 850L1360 980H1440L1400 850Z" fill="#0F3823"/>
+    <rect x="1395" y="980" width="10" height="100" fill="#5D4037"/>
+    
+    <!-- Tree 6 -->
+    <path d="M1700 780L1650 930H1750L1700 780Z" fill="#0F3823"/>
+    <path d="M1700 830L1660 960H1740L1700 830Z" fill="#0F3823"/>
+    <rect x="1695" y="960" width="10" height="120" fill="#5D4037"/>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="sky_gradient" x1="960" y1="0" x2="960" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1B5E20"/>
+      <stop offset="1" stop-color="#2E7D32"/>
+    </linearGradient>
+    
+    <linearGradient id="fog_gradient" x1="960" y1="750" x2="960" y2="850" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>

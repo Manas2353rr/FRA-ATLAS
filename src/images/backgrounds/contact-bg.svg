@@ -1,0 +1,163 @@
+<svg width="1920" height="800" viewBox="0 0 1920 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1920" height="800" fill="#F5F5F5"/>
+  
+  <!-- Forest pattern -->
+  <g opacity="0.05">
+    <!-- Row 1 -->
+    <path d="M50 100L30 150H70L50 100Z" fill="#2E7D32"/>
+    <path d="M150 100L130 150H170L150 100Z" fill="#2E7D32"/>
+    <path d="M250 100L230 150H270L250 100Z" fill="#2E7D32"/>
+    <path d="M350 100L330 150H370L350 100Z" fill="#2E7D32"/>
+    <path d="M450 100L430 150H470L450 100Z" fill="#2E7D32"/>
+    <path d="M550 100L530 150H570L550 100Z" fill="#2E7D32"/>
+    <path d="M650 100L630 150H670L650 100Z" fill="#2E7D32"/>
+    <path d="M750 100L730 150H770L750 100Z" fill="#2E7D32"/>
+    <path d="M850 100L830 150H870L850 100Z" fill="#2E7D32"/>
+    <path d="M950 100L930 150H970L950 100Z" fill="#2E7D32"/>
+    <path d="M1050 100L1030 150H1070L1050 100Z" fill="#2E7D32"/>
+    <path d="M1150 100L1130 150H1170L1150 100Z" fill="#2E7D32"/>
+    <path d="M1250 100L1230 150H1270L1250 100Z" fill="#2E7D32"/>
+    <path d="M1350 100L1330 150H1370L1350 100Z" fill="#2E7D32"/>
+    <path d="M1450 100L1430 150H1470L1450 100Z" fill="#2E7D32"/>
+    <path d="M1550 100L1530 150H1570L1550 100Z" fill="#2E7D32"/>
+    <path d="M1650 100L1630 150H1670L1650 100Z" fill="#2E7D32"/>
+    <path d="M1750 100L1730 150H1770L1750 100Z" fill="#2E7D32"/>
+    <path d="M1850 100L1830 150H1870L1850 100Z" fill="#2E7D32"/>
+    
+    <!-- Row 2 -->
+    <path d="M100 200L80 250H120L100 200Z" fill="#2E7D32"/>
+    <path d="M200 200L180 250H220L200 200Z" fill="#2E7D32"/>
+    <path d="M300 200L280 250H320L300 200Z" fill="#2E7D32"/>
+    <path d="M400 200L380 250H420L400 200Z" fill="#2E7D32"/>
+    <path d="M500 200L480 250H520L500 200Z" fill="#2E7D32"/>
+    <path d="M600 200L580 250H620L600 200Z" fill="#2E7D32"/>
+    <path d="M700 200L680 250H720L700 200Z" fill="#2E7D32"/>
+    <path d="M800 200L780 250H820L800 200Z" fill="#2E7D32"/>
+    <path d="M900 200L880 250H920L900 200Z" fill="#2E7D32"/>
+    <path d="M1000 200L980 250H1020L1000 200Z" fill="#2E7D32"/>
+    <path d="M1100 200L1080 250H1120L1100 200Z" fill="#2E7D32"/>
+    <path d="M1200 200L1180 250H1220L1200 200Z" fill="#2E7D32"/>
+    <path d="M1300 200L1280 250H1320L1300 200Z" fill="#2E7D32"/>
+    <path d="M1400 200L1380 250H1420L1400 200Z" fill="#2E7D32"/>
+    <path d="M1500 200L1480 250H1520L1500 200Z" fill="#2E7D32"/>
+    <path d="M1600 200L1580 250H1620L1600 200Z" fill="#2E7D32"/>
+    <path d="M1700 200L1680 250H1720L1700 200Z" fill="#2E7D32"/>
+    <path d="M1800 200L1780 250H1820L1800 200Z" fill="#2E7D32"/>
+    <path d="M1900 200L1880 250H1920L1900 200Z" fill="#2E7D32"/>
+    
+    <!-- Row 3 -->
+    <path d="M50 300L30 350H70L50 300Z" fill="#2E7D32"/>
+    <path d="M150 300L130 350H170L150 300Z" fill="#2E7D32"/>
+    <path d="M250 300L230 350H270L250 300Z" fill="#2E7D32"/>
+    <path d="M350 300L330 350H370L350 300Z" fill="#2E7D32"/>
+    <path d="M450 300L430 350H470L450 300Z" fill="#2E7D32"/>
+    <path d="M550 300L530 350H570L550 300Z" fill="#2E7D32"/>
+    <path d="M650 300L630 350H670L650 300Z" fill="#2E7D32"/>
+    <path d="M750 300L730 350H770L750 300Z" fill="#2E7D32"/>
+    <path d="M850 300L830 350H870L850 300Z" fill="#2E7D32"/>
+    <path d="M950 300L930 350H970L950 300Z" fill="#2E7D32"/>
+    <path d="M1050 300L1030 350H1070L1050 300Z" fill="#2E7D32"/>
+    <path d="M1150 300L1130 350H1170L1150 300Z" fill="#2E7D32"/>
+    <path d="M1250 300L1230 350H1270L1250 300Z" fill="#2E7D32"/>
+    <path d="M1350 300L1330 350H1370L1350 300Z" fill="#2E7D32"/>
+    <path d="M1450 300L1430 350H1470L1450 300Z" fill="#2E7D32"/>
+    <path d="M1550 300L1530 350H1570L1550 300Z" fill="#2E7D32"/>
+    <path d="M1650 300L1630 350H1670L1650 300Z" fill="#2E7D32"/>
+    <path d="M1750 300L1730 350H1770L1750 300Z" fill="#2E7D32"/>
+    <path d="M1850 300L1830 350H1870L1850 300Z" fill="#2E7D32"/>
+    
+    <!-- Row 4 -->
+    <path d="M100 400L80 450H120L100 400Z" fill="#2E7D32"/>
+    <path d="M200 400L180 450H220L200 400Z" fill="#2E7D32"/>
+    <path d="M300 400L280 450H320L300 400Z" fill="#2E7D32"/>
+    <path d="M400 400L380 450H420L400 400Z" fill="#2E7D32"/>
+    <path d="M500 400L480 450H520L500 400Z" fill="#2E7D32"/>
+    <path d="M600 400L580 450H620L600 400Z" fill="#2E7D32"/>
+    <path d="M700 400L680 450H720L700 400Z" fill="#2E7D32"/>
+    <path d="M800 400L780 450H820L800 400Z" fill="#2E7D32"/>
+    <path d="M900 400L880 450H920L900 400Z" fill="#2E7D32"/>
+    <path d="M1000 400L980 450H1020L1000 400Z" fill="#2E7D32"/>
+    <path d="M1100 400L1080 450H1120L1100 400Z" fill="#2E7D32"/>
+    <path d="M1200 400L1180 450H1220L1200 400Z" fill="#2E7D32"/>
+    <path d="M1300 400L1280 450H1320L1300 400Z" fill="#2E7D32"/>
+    <path d="M1400 400L1380 450H1420L1400 400Z" fill="#2E7D32"/>
+    <path d="M1500 400L1480 450H1520L1500 400Z" fill="#2E7D32"/>
+    <path d="M1600 400L1580 450H1620L1600 400Z" fill="#2E7D32"/>
+    <path d="M1700 400L1680 450H1720L1700 400Z" fill="#2E7D32"/>
+    <path d="M1800 400L1780 450H1820L1800 400Z" fill="#2E7D32"/>
+    <path d="M1900 400L1880 450H1920L1900 400Z" fill="#2E7D32"/>
+    
+    <!-- Row 5 -->
+    <path d="M50 500L30 550H70L50 500Z" fill="#2E7D32"/>
+    <path d="M150 500L130 550H170L150 500Z" fill="#2E7D32"/>
+    <path d="M250 500L230 550H270L250 500Z" fill="#2E7D32"/>
+    <path d="M350 500L330 550H370L350 500Z" fill="#2E7D32"/>
+    <path d="M450 500L430 550H470L450 500Z" fill="#2E7D32"/>
+    <path d="M550 500L530 550H570L550 500Z" fill="#2E7D32"/>
+    <path d="M650 500L630 550H670L650 500Z" fill="#2E7D32"/>
+    <path d="M750 500L730 550H770L750 500Z" fill="#2E7D32"/>
+    <path d="M850 500L830 550H870L850 500Z" fill="#2E7D32"/>
+    <path d="M950 500L930 550H970L950 500Z" fill="#2E7D32"/>
+    <path d="M1050 500L1030 550H1070L1050 500Z" fill="#2E7D32"/>
+    <path d="M1150 500L1130 550H1170L1150 500Z" fill="#2E7D32"/>
+    <path d="M1250 500L1230 550H1270L1250 500Z" fill="#2E7D32"/>
+    <path d="M1350 500L1330 550H1370L1350 500Z" fill="#2E7D32"/>
+    <path d="M1450 500L1430 550H1470L1450 500Z" fill="#2E7D32"/>
+    <path d="M1550 500L1530 550H1570L1550 500Z" fill="#2E7D32"/>
+    <path d="M1650 500L1630 550H1670L1650 500Z" fill="#2E7D32"/>
+    <path d="M1750 500L1730 550H1770L1750 500Z" fill="#2E7D32"/>
+    <path d="M1850 500L1830 550H1870L1850 500Z" fill="#2E7D32"/>
+    
+    <!-- Row 6 -->
+    <path d="M100 600L80 650H120L100 600Z" fill="#2E7D32"/>
+    <path d="M200 600L180 650H220L200 600Z" fill="#2E7D32"/>
+    <path d="M300 600L280 650H320L300 600Z" fill="#2E7D32"/>
+    <path d="M400 600L380 650H420L400 600Z" fill="#2E7D32"/>
+    <path d="M500 600L480 650H520L500 600Z" fill="#2E7D32"/>
+    <path d="M600 600L580 650H620L600 600Z" fill="#2E7D32"/>
+    <path d="M700 600L680 650H720L700 600Z" fill="#2E7D32"/>
+    <path d="M800 600L780 650H820L800 600Z" fill="#2E7D32"/>
+    <path d="M900 600L880 650H920L900 600Z" fill="#2E7D32"/>
+    <path d="M1000 600L980 650H1020L1000 600Z" fill="#2E7D32"/>
+    <path d="M1100 600L1080 650H1120L1100 600Z" fill="#2E7D32"/>
+    <path d="M1200 600L1180 650H1220L1200 600Z" fill="#2E7D32"/>
+    <path d="M1300 600L1280 650H1320L1300 600Z" fill="#2E7D32"/>
+    <path d="M1400 600L1380 650H1420L1400 600Z" fill="#2E7D32"/>
+    <path d="M1500 600L1480 650H1520L1500 600Z" fill="#2E7D32"/>
+    <path d="M1600 600L1580 650H1620L1600 600Z" fill="#2E7D32"/>
+    <path d="M1700 600L1680 650H1720L1700 600Z" fill="#2E7D32"/>
+    <path d="M1800 600L1780 650H1820L1800 600Z" fill="#2E7D32"/>
+    <path d="M1900 600L1880 650H1920L1900 600Z" fill="#2E7D32"/>
+    
+    <!-- Row 7 -->
+    <path d="M50 700L30 750H70L50 700Z" fill="#2E7D32"/>
+    <path d="M150 700L130 750H170L150 700Z" fill="#2E7D32"/>
+    <path d="M250 700L230 750H270L250 700Z" fill="#2E7D32"/>
+    <path d="M350 700L330 750H370L350 700Z" fill="#2E7D32"/>
+    <path d="M450 700L430 750H470L450 700Z" fill="#2E7D32"/>
+    <path d="M550 700L530 750H570L550 700Z" fill="#2E7D32"/>
+    <path d="M650 700L630 750H670L650 700Z" fill="#2E7D32"/>
+    <path d="M750 700L730 750H770L750 700Z" fill="#2E7D32"/>
+    <path d="M850 700L830 750H870L850 700Z" fill="#2E7D32"/>
+    <path d="M950 700L930 750H970L950 700Z" fill="#2E7D32"/>
+    <path d="M1050 700L1030 750H1070L1050 700Z" fill="#2E7D32"/>
+    <path d="M1150 700L1130 750H1170L1150 700Z" fill="#2E7D32"/>
+    <path d="M1250 700L1230 750H1270L1250 700Z" fill="#2E7D32"/>
+    <path d="M1350 700L1330 750H1370L1350 700Z" fill="#2E7D32"/>
+    <path d="M1450 700L1430 750H1470L1450 700Z" fill="#2E7D32"/>
+    <path d="M1550 700L1530 750H1570L1550 700Z" fill="#2E7D32"/>
+    <path d="M1650 700L1630 750H1670L1650 700Z" fill="#2E7D32"/>
+    <path d="M1750 700L1730 750H1770L1750 700Z" fill="#2E7D32"/>
+    <path d="M1850 700L1830 750H1870L1850 700Z" fill="#2E7D32"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <g opacity="0.1">
+    <circle cx="200" cy="200" r="100" fill="#2E7D32"/>
+    <circle cx="1700" cy="600" r="150" fill="#2E7D32"/>
+    <circle cx="500" cy="700" r="80" fill="#2E7D32"/>
+    <circle cx="1300" cy="300" r="120" fill="#2E7D32"/>
+    <circle cx="900" cy="500" r="90" fill="#2E7D32"/>
+  </g>
+</svg>

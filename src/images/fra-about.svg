@@ -1,0 +1,87 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" rx="10" fill="#F5F5F5"/>
+  
+  <!-- Background -->
+  <rect width="600" height="300" fill="#E8F5E9"/>
+  <path d="M0 150C100 120 200 180 300 150C400 120 500 180 600 150V300H0V150Z" fill="#C8E6C9"/>
+  <path d="M0 200C100 170 200 230 300 200C400 170 500 230 600 200V300H0V200Z" fill="#A5D6A7"/>
+  <path d="M0 250C100 220 200 280 300 250C400 220 500 280 600 250V300H0V250Z" fill="#81C784"/>
+  
+  <!-- Forest -->
+  <path d="M50 200L30 250H70L50 200Z" fill="#2E7D32"/>
+  <path d="M50 230L30 280H70L50 230Z" fill="#1B5E20"/>
+  <rect x="45" y="280" width="10" height="20" fill="#795548"/>
+  
+  <path d="M100 180L80 230H120L100 180Z" fill="#2E7D32"/>
+  <path d="M100 210L80 260H120L100 210Z" fill="#1B5E20"/>
+  <rect x="95" y="260" width="10" height="20" fill="#795548"/>
+  
+  <path d="M150 200L130 250H170L150 200Z" fill="#2E7D32"/>
+  <path d="M150 230L130 280H170L150 230Z" fill="#1B5E20"/>
+  <rect x="145" y="280" width="10" height="20" fill="#795548"/>
+  
+  <path d="M200 180L180 230H220L200 180Z" fill="#2E7D32"/>
+  <path d="M200 210L180 260H220L200 210Z" fill="#1B5E20"/>
+  <rect x="195" y="260" width="10" height="20" fill="#795548"/>
+  
+  <path d="M250 200L230 250H270L250 200Z" fill="#2E7D32"/>
+  <path d="M250 230L230 280H270L250 230Z" fill="#1B5E20"/>
+  <rect x="245" y="280" width="10" height="20" fill="#795548"/>
+  
+  <!-- People -->
+  <circle cx="350" cy="260" r="15" fill="#795548"/>
+  <rect x="345" y="275" width="10" height="25" fill="#5D4037"/>
+  <rect x="335" y="285" width="30" height="15" fill="#5D4037"/>
+  <line x1="345" y1="300" x2="335" y2="315" stroke="#5D4037" stroke-width="5"/>
+  <line x1="355" y1="300" x2="365" y2="315" stroke="#5D4037" stroke-width="5"/>
+  
+  <circle cx="400" cy="270" r="15" fill="#8D6E63"/>
+  <rect x="395" y="285" width="10" height="25" fill="#6D4C41"/>
+  <rect x="385" y="295" width="30" height="15" fill="#6D4C41"/>
+  <line x1="395" y1="310" x2="385" y2="325" stroke="#6D4C41" stroke-width="5"/>
+  <line x1="405" y1="310" x2="415" y2="325" stroke="#6D4C41" stroke-width="5"/>
+  
+  <circle cx="450" cy="260" r="15" fill="#A1887F"/>
+  <rect x="445" y="275" width="10" height="25" fill="#8D6E63"/>
+  <rect x="435" y="285" width="30" height="15" fill="#8D6E63"/>
+  <line x1="445" y1="300" x2="435" y2="315" stroke="#8D6E63" stroke-width="5"/>
+  <line x1="455" y1="300" x2="465" y2="315" stroke="#8D6E63" stroke-width="5"/>
+  
+  <!-- House -->
+  <rect x="500" y="250" width="60" height="50" fill="#A1887F"/>
+  <path d="M490 250L530 220L570 250H490Z" fill="#8D6E63"/>
+  <rect x="520" y="270" width="20" height="30" fill="#5D4037"/>
+  <rect x="505" y="260" width="15" height="15" fill="#C8E6C9"/>
+  <rect x="540" y="260" width="15" height="15" fill="#C8E6C9"/>
+  
+  <!-- Document -->
+  <rect x="350" y="100" width="200" height="120" rx="5" fill="white"/>
+  <rect x="370" y="120" width="160" height="5" fill="#BDBDBD"/>
+  <rect x="370" y="135" width="160" height="5" fill="#BDBDBD"/>
+  <rect x="370" y="150" width="160" height="5" fill="#BDBDBD"/>
+  <rect x="370" y="165" width="100" height="5" fill="#BDBDBD"/>
+  <rect x="370" y="180" width="80" height="5" fill="#BDBDBD"/>
+  <rect x="370" y="195" width="120" height="5" fill="#BDBDBD"/>
+  
+  <!-- Title -->
+  <text x="50" y="80" font-family="Arial" font-size="24" font-weight="bold" fill="#2E7D32">Forest Rights Act, 2006</text>
+  <text x="50" y="110" font-family="Arial" font-size="16" fill="#424242">Recognizing the rights of forest-dwelling communities</text>
+  
+  <!-- Icons -->
+  <circle cx="80" y="150" r="20" fill="#4CAF50"/>
+  <text x="75" y="155" font-family="Arial" font-size="16" font-weight="bold" fill="white">1</text>
+  <text x="110" y="155" font-family="Arial" font-size="14" fill="#424242">Individual Forest Rights</text>
+  
+  <circle cx="80" y="190" r="20" fill="#4CAF50"/>
+  <text x="75" y="195" font-family="Arial" font-size="16" font-weight="bold" fill="white">2</text>
+  <text x="110" y="195" font-family="Arial" font-size="14" fill="#424242">Community Rights</text>
+  
+  <circle cx="80" y="230" r="20" fill="#4CAF50"/>
+  <text x="75" y="235" font-family="Arial" font-size="16" font-weight="bold" fill="white">3</text>
+  <text x="110" y="235" font-family="Arial" font-size="14" fill="#424242">Community Forest Resource Rights</text>
+  
+  <!-- Bottom Bar -->
+  <rect y="300" width="600" height="100" fill="#2E7D32"/>
+  <text x="50" y="350" font-family="Arial" font-size="18" font-weight="bold" fill="white">Empowering Communities, Protecting Forests</text>
+  <text x="50" y="380" font-family="Arial" font-size="14" fill="#E8F5E9">Ministry of Tribal Affairs, Government of India</text>
+</svg>
