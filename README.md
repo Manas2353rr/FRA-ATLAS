@@ -19,28 +19,6 @@ The FRA Atlas & WebGIS Decision Support System is an AI-powered platform for int
 - **Backend**: Node.js with Express
 - **Data Processing**: GeoJSON for spatial data
 
-## Installation
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/ministry-of-tribal-affairs/fra-atlas.git
-   cd fra-atlas
-   ```
-
-2. Install dependencies:
-   ```
-   npm install
-   ```
-
-3. Start the server:
-   ```
-   npm start
-   ```
-
-4. Open your browser and navigate to:
-   ```
-   http://localhost:3000
-   ```
 
 ## Project Structure
 
@@ -104,5 +82,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 For more information, please contact:
-- Email: fra-atlas@tribal.gov.in
-- Phone: +91-11-23383853
+- Email: kavyakurkar1@gmail.com
+- Phone: +91 9977220060
