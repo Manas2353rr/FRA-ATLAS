@@ -82,5 +82,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 For more information, please contact:
-- Email: kavyakurkar1@gmail.com
-- Phone: +91 9977220060
+- Email: manaskumarjagyasi@gmail.com
